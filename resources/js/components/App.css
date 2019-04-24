@@ -1,0 +1,144 @@
+
+.main-panel {
+  width:100vw;
+  margin-top: 10px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  /*border: 1px solid red;;*/
+  height: 100vh;
+  overflow: auto;
+  width: 850px;
+  margin: auto;
+}
+
+/*Main layout*/
+.leftPanel {
+  width:30%;
+  background: #F3F3F3;
+}
+.mainPanel {
+  width: 70%;
+  background: #FFFFFF;
+  /*border: 1px solid #E8EAEF;*/
+}
+
+
+/*Leftpanel top section*/
+.left-top {
+  display: flex;
+  height: 4.97%;
+  margin-bottom: 10px;
+}
+.left-top {
+  border-bottom: solid 1px #D7D9E0;
+}
+.left-top h1 {
+  flex: 2;
+  font-family: Neue Alte Grotesk;
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #394166;
+  margin: auto;
+  margin-left: 15px;
+  height: 15px;
+}
+.left-top  h2 {
+  flex: 1;
+  font-family: Neue Alte Grotesk;
+  font-size: 13px;
+  line-height: 13px;
+  color: #9CA0B2;
+  margin: auto;
+  cursor: pointer;
+}
+.left-top h2 span {
+  font-family: SS Geomicons Squared;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin-left: 10px;
+  color: #9CA0B2;
+}
+
+
+/*Left panel bottom section*/
+/*.leftPanel .left-bottom {
+  background: #FFFFFF;
+  border: 1px solid #E8EAEF;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 6px rgba(57, 65, 102, 0.05);
+  border-radius: 2px;
+  text-align: left;
+}*/
+
+/*.leftPanel .left-bottom {
+  padding-left: 16px;
+  margin: 10px;
+  box-shadow: -5px 0px 0px 0px #4077E4;
+  border-radius: 2px 0px 0px 2px;
+}*/
+.leftPanel .left-bottom {
+  text-align: left;
+  padding-left: 16px;
+  margin: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.leftPanel .active {
+   box-shadow: -5px 0px 0px 0px #4077E4;
+   border-radius: 2px 0px 0px 2px;
+   background: #FFFFFF;
+}
+
+.leftPanel .left-bottom .title {
+  margin-top: 15px;
+  margin-bottom: 14px;
+  font-family: Neue Alte Grotesk;
+  font-size: 14px;
+  line-height: normal;
+  color: #394166;
+/*  line-height: 25%;*/
+}
+.leftPanel .left-bottom .description {
+  margin-bottom: 14px;
+  font-family: Neue Alte Grotesk;
+  font-size: 12px;
+  line-height: normal;
+  color: #394166;
+  /*line-height: 75%;*/
+}
+
+
+/*Center page*/
+.mainPanel {}
+.main-top {
+  font-family: Neue Alte Grotesk;
+  height: 4.97%;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: auto;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  background: #4077E4;
+  display: flex;
+}
+#getFile {
+  display: none;
+}
+.contents {
+  margin: auto;
+  margin-left: 11px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+/*.contents img {
+  border: 1px solid yellow;
+}*/

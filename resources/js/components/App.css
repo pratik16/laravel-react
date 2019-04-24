@@ -117,7 +117,7 @@
 
 /*Center page*/
 .mainPanel {}
-.main-top {
+.main-top .title{
   font-family: Neue Alte Grotesk;
   height: 4.97%;
   font-size: 18px;
@@ -126,12 +126,13 @@
   margin: auto;
   margin-left: 10px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   background: #4077E4;
   display: flex;
 }
+
 #getFile {
-  display: none;
+  display: none; 
 }
 .contents {
   margin: auto;

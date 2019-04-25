@@ -29,7 +29,24 @@ Route::get('/docs', function (Request $request) {
 
 Route::post('/docs', function (Request $request) {
     $data = file_get_contents('dummy/data.json');
+    $a = json_decode($data, true);
+    $b = end($a);
+    $id = $b['id']+1;
 
+    $name = $request->file('docfile')->hashName();
+    $arr = array(
+        'id' => $id,
+        'title' => "Document #" . $id,
+        'description' => "Me, Dustin",
+        'image' => $name,
+        'class' => ''
+    );
+
+    $a[] = $arr;
+    $json = json_encode($a);
+
+    file_put_contents('dummy/data.json', $json);
+    Storage::disk('local')->put('./', $request->file('docfile'));
     return response()->json([
         'status' => '200',
         'data' => $data

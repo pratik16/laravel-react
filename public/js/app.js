@@ -6520,7 +6520,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.main-panel {\n  width:100vw;\n  margin-top: 10px;\n}\n\n.App {\n  display: flex;\n  justify-content: center;\n  /*border: 1px solid red;;*/\n  height: 100vh;\n  overflow: auto;\n  width: 850px;\n  margin: auto;\n}\n\n/*Main layout*/\n.leftPanel {\n  width:30%;\n  background: #F3F3F3;\n}\n.mainPanel {\n  width: 70%;\n  background: #FFFFFF;\n  /*border: 1px solid #E8EAEF;*/\n}\n\n\n/*Leftpanel top section*/\n.left-top {\n  display: flex;\n  height: 4.97%;\n  margin-bottom: 10px;\n}\n.left-top {\n  border-bottom: solid 1px #D7D9E0;\n}\n.left-top h1 {\n  flex: 2;\n  font-family: Neue Alte Grotesk;\n  font-size: 12px;\n  line-height: normal;\n  letter-spacing: 2px;\n  text-transform: uppercase;\n  color: #394166;\n  margin: auto;\n  margin-left: 15px;\n  height: 15px;\n}\n.left-top  h2 {\n  flex: 1;\n  font-family: Neue Alte Grotesk;\n  font-size: 13px;\n  line-height: 13px;\n  color: #9CA0B2;\n  margin: auto;\n  cursor: pointer;\n}\n.left-top h2 span {\n  font-family: SS Geomicons Squared;\n  font-size: 12px;\n  line-height: 14px;\n  text-align: center;\n  margin-left: 10px;\n  color: #9CA0B2;\n}\n\n\n/*Left panel bottom section*/\n/*.leftPanel .left-bottom {\n  background: #FFFFFF;\n  border: 1px solid #E8EAEF;\n  box-sizing: border-box;\n  box-shadow: 0px 3px 6px rgba(57, 65, 102, 0.05);\n  border-radius: 2px;\n  text-align: left;\n}*/\n\n/*.leftPanel .left-bottom {\n  padding-left: 16px;\n  margin: 10px;\n  box-shadow: -5px 0px 0px 0px #4077E4;\n  border-radius: 2px 0px 0px 2px;\n}*/\n.leftPanel .left-bottom {\n  text-align: left;\n  padding-left: 16px;\n  margin: 10px;\n  border: 1px solid transparent;\n  cursor: pointer;\n}\n\n.leftPanel .active {\n   box-shadow: -5px 0px 0px 0px #4077E4;\n   border-radius: 2px 0px 0px 2px;\n   background: #FFFFFF;\n}\n\n.leftPanel .left-bottom .title {\n  margin-top: 15px;\n  margin-bottom: 14px;\n  font-family: Neue Alte Grotesk;\n  font-size: 14px;\n  line-height: normal;\n  color: #394166;\n/*  line-height: 25%;*/\n}\n.leftPanel .left-bottom .description {\n  margin-bottom: 14px;\n  font-family: Neue Alte Grotesk;\n  font-size: 12px;\n  line-height: normal;\n  color: #394166;\n  /*line-height: 75%;*/\n}\n\n\n/*Center page*/\n.mainPanel {}\n.main-top {\n  font-family: Neue Alte Grotesk;\n  height: 4.97%;\n  font-size: 18px;\n  line-height: 26px;\n  color: #FFFFFF;\n  margin: auto;\n  margin-left: 10px;\n  padding-left: 20px;\n  padding-top: 10px;\n  background: #4077E4;\n  display: flex;\n}\n#getFile {\n  display: none;\n}\n.contents {\n  margin: auto;\n  margin-left: 11px;\n  margin-top: 10px;\n  margin-right: 10px;\n}\n/*.contents img {\n  border: 1px solid yellow;\n}*/", ""]);
+exports.push([module.i, "\n.main-panel {\n  width:100vw;\n  margin-top: 10px;\n}\n\n.App {\n  display: flex;\n  justify-content: center;\n  /*border: 1px solid red;;*/\n  height: 100vh;\n  overflow: auto;\n  width: 850px;\n  margin: auto;\n}\n\n/*Main layout*/\n.leftPanel {\n  width:30%;\n  background: #F3F3F3;\n}\n.mainPanel {\n  width: 70%;\n  background: #FFFFFF;\n  /*border: 1px solid #E8EAEF;*/\n}\n\n\n/*Leftpanel top section*/\n.left-top {\n  display: flex;\n  height: 4.97%;\n  margin-bottom: 10px;\n}\n.left-top {\n  border-bottom: solid 1px #D7D9E0;\n}\n.left-top h1 {\n  flex: 2;\n  font-family: Neue Alte Grotesk;\n  font-size: 12px;\n  line-height: normal;\n  letter-spacing: 2px;\n  text-transform: uppercase;\n  color: #394166;\n  margin: auto;\n  margin-left: 15px;\n  height: 15px;\n}\n.left-top  h2 {\n  flex: 1;\n  font-family: Neue Alte Grotesk;\n  font-size: 13px;\n  line-height: 13px;\n  color: #9CA0B2;\n  margin: auto;\n  cursor: pointer;\n}\n.left-top h2 span {\n  font-family: SS Geomicons Squared;\n  font-size: 12px;\n  line-height: 14px;\n  text-align: center;\n  margin-left: 10px;\n  color: #9CA0B2;\n}\n\n\n/*Left panel bottom section*/\n/*.leftPanel .left-bottom {\n  background: #FFFFFF;\n  border: 1px solid #E8EAEF;\n  box-sizing: border-box;\n  box-shadow: 0px 3px 6px rgba(57, 65, 102, 0.05);\n  border-radius: 2px;\n  text-align: left;\n}*/\n\n/*.leftPanel .left-bottom {\n  padding-left: 16px;\n  margin: 10px;\n  box-shadow: -5px 0px 0px 0px #4077E4;\n  border-radius: 2px 0px 0px 2px;\n}*/\n.leftPanel .left-bottom {\n  text-align: left;\n  padding-left: 16px;\n  margin: 10px;\n  border: 1px solid transparent;\n  cursor: pointer;\n}\n\n.leftPanel .active {\n   box-shadow: -5px 0px 0px 0px #4077E4;\n   border-radius: 2px 0px 0px 2px;\n   background: #FFFFFF;\n}\n\n.leftPanel .left-bottom .title {\n  margin-top: 15px;\n  margin-bottom: 14px;\n  font-family: Neue Alte Grotesk;\n  font-size: 14px;\n  line-height: normal;\n  color: #394166;\n/*  line-height: 25%;*/\n}\n.leftPanel .left-bottom .description {\n  margin-bottom: 14px;\n  font-family: Neue Alte Grotesk;\n  font-size: 12px;\n  line-height: normal;\n  color: #394166;\n  /*line-height: 75%;*/\n}\n\n\n/*Center page*/\n.mainPanel {}\n.main-top .title{\n  font-family: Neue Alte Grotesk;\n  height: 4.97%;\n  font-size: 18px;\n  line-height: 26px;\n  color: #FFFFFF;\n  margin: auto;\n  margin-left: 10px;\n  padding-left: 20px;\n  padding-top: 5px;\n  background: #4077E4;\n  display: flex;\n}\n\n#getFile {\n  display: none; \n}\n.contents {\n  margin: auto;\n  margin-left: 11px;\n  margin-top: 10px;\n  margin-right: 10px;\n}\n/*.contents img {\n  border: 1px solid yellow;\n}*/", ""]);
 
 // exports
 
@@ -66464,7 +66464,8 @@ function (_Component) {
       }, this.props.document.title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contents"
       }, this.props.document.img ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: __webpack_require__("./resources/js/components/images sync recursive ^\\.\\/.*$")("./" + this.props.document.img)
+        src: __webpack_require__("./resources/js/components/images sync recursive ^\\.\\/.*$")("./" + this.props.document.img),
+        width: "80%"
       }) : null));
     }
   }]);
@@ -66484,9 +66485,8 @@ function (_Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./image-2.png": "./resources/js/components/images/image-2.png",
-	"./image-3.png": "./resources/js/components/images/image-3.png",
-	"./logo.svg": "./resources/js/components/images/logo.svg"
+	"./iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg": "./resources/js/components/images/iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg",
+	"./image-2.png": "./resources/js/components/images/image-2.png"
 };
 
 
@@ -66511,6 +66511,17 @@ webpackContext.id = "./resources/js/components/images sync recursive ^\\.\\/.*$"
 
 /***/ }),
 
+/***/ "./resources/js/components/images/iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/images/iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg?8d36ed726575e9ca24b2f6cba966e152";
+
+/***/ }),
+
 /***/ "./resources/js/components/images/image-2.png":
 /*!****************************************************!*\
   !*** ./resources/js/components/images/image-2.png ***!
@@ -66519,28 +66530,6 @@ webpackContext.id = "./resources/js/components/images sync recursive ^\\.\\/.*$"
 /***/ (function(module, exports) {
 
 module.exports = "/images/image-2.png?23730a8075d0901c45d6a77da2e1c685";
-
-/***/ }),
-
-/***/ "./resources/js/components/images/image-3.png":
-/*!****************************************************!*\
-  !*** ./resources/js/components/images/image-3.png ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/image-3.png?8e3fed606ebca93d778db6e96c972c92";
-
-/***/ }),
-
-/***/ "./resources/js/components/images/logo.svg":
-/*!*************************************************!*\
-  !*** ./resources/js/components/images/logo.svg ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/logo.svg?5d5d9eefa31e5e13a6610d9fa7a283bb";
 
 /***/ }),
 
@@ -66667,7 +66656,9 @@ function (_Component) {
 
         _this2.setState({
           documents: data
-        });
+        }); //console.log(1);
+        //console.log(data);
+
 
         _this2.changeEvent(1);
       });
@@ -66678,6 +66669,20 @@ function (_Component) {
       this.getData();
     }
   }, {
+    key: "callSubmit",
+    value: function callSubmit(e) {
+      var files = Array.from(e.target.files);
+      var formData = new FormData();
+      files.forEach(function (file, i) {
+        formData.append("docfile", file);
+      });
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.post('http://localhost:8000/api/docs', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      }); //        document.getElementById('form1').submit();
+    }
+  }, {
     key: "render",
     value: function render() {
       var _this3 = this;
@@ -66686,11 +66691,18 @@ function (_Component) {
         className: "leftPanel"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "left-top"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "FILES"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "FILES"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        id: "form1",
+        action: "/",
+        method: "post",
+        encType: "multipart/form-data",
+        onChange: this.callSubmit.bind(this)
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "file",
         id: "getFile",
+        name: "docfile",
         accept: "image/*"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         onClick: this.submitFile.bind(this)
       }, "Upload", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         width: "12",

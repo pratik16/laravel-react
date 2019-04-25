@@ -66,10 +66,12 @@ class Panel extends Component {
     getData() {
         axios.get('http://localhost:8000/api/docs')
             .then(res => {
-                let data = JSON.parse(res.data.data);
+                var data = JSON.parse(res.data.data);
                 this.setState({
                     documents: data
                 });
+                //console.log(1);
+                //console.log(data);
                 this.changeEvent(1);
             })
     }
@@ -79,12 +81,30 @@ class Panel extends Component {
 
     }
 
+    callSubmit(e) {
+        const files = Array.from(e.target.files);
+
+        var formData = new FormData();
+        files.forEach((file, i) => {
+            formData.append("docfile", file);
+        });
+
+        axios.post('http://localhost:8000/api/docs', formData, {
+            headers: {
+              'Content-Type': 'multipart/form-data'
+            }
+        })
+//        document.getElementById('form1').submit();
+    }
+
     render() {
         return (
             <div className="leftPanel">
                 <div className="left-top">
                     <h1>FILES</h1>
-                    <input type='file' id="getFile" accept="image/*"/>
+                    <form id="form1" action="/" method="post" encType="multipart/form-data" onChange={this.callSubmit.bind(this)}>
+                        <input type='file' id="getFile" name="docfile" accept="image/*"/>
+                    </form>
                     <h2 onClick={this.submitFile.bind(this)}>Upload
                         <span>
                             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

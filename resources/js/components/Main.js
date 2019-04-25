@@ -14,7 +14,7 @@ class Main extends Component {
                 <div className="contents">
                     {
                         this.props.document.img ?
-                            <img src={require('./images/' + this.props.document.img)} width="80%"/>
+                            <img src={'http://localhost:8000/images/' + this.props.document.img} width="80%" />
                         :
                         null
                     }

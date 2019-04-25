@@ -45,7 +45,7 @@ return [
 
         'local' => [
             'driver' => 'local',
-            'root' => resource_path('js/components/images'),
+            'root' => public_path('images'),
         ],
 
         'public' => [

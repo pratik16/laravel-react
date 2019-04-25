@@ -66464,7 +66464,7 @@ function (_Component) {
       }, this.props.document.title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contents"
       }, this.props.document.img ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: __webpack_require__("./resources/js/components/images sync recursive ^\\.\\/.*$")("./" + this.props.document.img),
+        src: 'http://localhost:8000/images/' + this.props.document.img,
         width: "80%"
       }) : null));
     }
@@ -66474,62 +66474,6 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Main);
-
-/***/ }),
-
-/***/ "./resources/js/components/images sync recursive ^\\.\\/.*$":
-/*!******************************************************!*\
-  !*** ./resources/js/components/images sync ^\.\/.*$ ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg": "./resources/js/components/images/iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg",
-	"./image-2.png": "./resources/js/components/images/image-2.png"
-};
-
-
-function webpackContext(req) {
-	var id = webpackContextResolve(req);
-	return __webpack_require__(id);
-}
-function webpackContextResolve(req) {
-	if(!__webpack_require__.o(map, req)) {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	}
-	return map[req];
-}
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = "./resources/js/components/images sync recursive ^\\.\\/.*$";
-
-/***/ }),
-
-/***/ "./resources/js/components/images/iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/components/images/iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/iC48HdKa121zXgcK3LR1liLeCfooVwQJZiH8rjbd.jpeg?8d36ed726575e9ca24b2f6cba966e152";
-
-/***/ }),
-
-/***/ "./resources/js/components/images/image-2.png":
-/*!****************************************************!*\
-  !*** ./resources/js/components/images/image-2.png ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/image-2.png?23730a8075d0901c45d6a77da2e1c685";
 
 /***/ }),
 
@@ -66752,8 +66696,8 @@ function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/pratik/Pratik/project/lreact1/laravel-react/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/pratik/Pratik/project/lreact1/laravel-react/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/hnhcpl-20/pv/ReactJS/project1/p1/laravel-react/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/hnhcpl-20/pv/ReactJS/project1/p1/laravel-react/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
